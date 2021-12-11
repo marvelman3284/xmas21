@@ -1,11 +1,12 @@
 import React from 'react';
 import "./App.css";
-// import { Link } from 'react-router-dom';
+import { Header, Footer } from "./Others";
 
 export class Gift extends React.Component {
   render () {
     return (
       <>
+        <Header />
         <Gifts name="Ender Pro V2 (3D Printer)" link="https://www.amazon.com/Pro-Removable-Certified-8-66x8-66x9-84in-220x220x250mm/dp/B07GYRQVYV" price="$251.99" />
         <Gifts name="3D printer filament bundle" link="https://www.amazon.com/1-75mm-Filament-Bundle-Compatible-Printers/dp/B07C3L6RP4/ref=sr_1_4?crid=CHUQYATCOHV7&keywords=3d+printer+pla+filament+1.75mm&qid=1639194173&s=industrial&sprefix=3d+printer+pla+%2Cindustrial%2C156&sr=1-4" price="$39.29" />
         <Gifts name="Nightwing Vol 1: Leaping into the Light" link="https://www.amazon.com/Nightwing-Vol-1-Leaping-into-Light/dp/1779512783" price="$17.99" />
@@ -17,6 +18,7 @@ export class Gift extends React.Component {
         <Gifts name="Daredevil: Chinatown" link="https://www.amazon.com/dp/0785196447" price="$15.99" />
         <Gifts name="A Watch" price="Depends on where you buy it" />
         <Gifts name="New York Giants Sweatshirt" price="$49.99" link="https://www.fanatics.com/nfl/new-york-giants/new-york-giants-new-era-combine-authentic-game-on-pullover-hoodie-heathered-gray/o-2483+t-68161202+p-82719349590+z-9-3017144684?_ref=p-DLP:m-GRID:i-r14c2:po-44&sku=16047510" />
+        <Footer />
       </>
     )
   }
