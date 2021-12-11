@@ -15,6 +15,8 @@ export class Gift extends React.Component {
         <Gifts name="Batman: Death and the Maidens" link="https://www.amazon.com/Batman-Maidens-Deluxe-Greg-Rucka/dp/1401265936/" price="$23.98" /> 
         <Gifts name="Daredevil: The Man Without Fear" link="https://www.amazon.com/dp/0785163344" price="$31.99" />
         <Gifts name="Daredevil: Chinatown" link="https://www.amazon.com/dp/0785196447" price="$15.99" />
+        <Gifts name="A Watch" price="Depends on where you buy it" />
+        <Gifts name="New York Giants Sweatshirt" price="$49.99" link="https://www.fanatics.com/nfl/new-york-giants/new-york-giants-new-era-combine-authentic-game-on-pullover-hoodie-heathered-gray/o-2483+t-68161202+p-82719349590+z-9-3017144684?_ref=p-DLP:m-GRID:i-r14c2:po-44&sku=16047510" />
       </>
     )
   }
@@ -43,4 +45,4 @@ class Gifts extends React.Component {
   }
 }
 
-Gifts.defaultProps = {name: 'test', price: "$69.420"}
+Gifts.defaultProps = {name: 'No name', price: "No Price", link: "/404"}

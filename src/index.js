@@ -7,11 +7,6 @@ import { Undef, Header, Footer } from './Others';
 
 
 ReactDOM.render(
-  <Header />,
-  document.getElementById('header')
-);
-
-ReactDOM.render(
   <Footer />,
   document.getElementById('footer')
 );
@@ -19,8 +14,10 @@ ReactDOM.render(
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<Gift />}/>
-      <Route exact path="/404" element={<Undef />}/>
+      <Route exact path="/" element={<Gift />} />
+      <Route exact path="/" element={<Header />} />
+      <Route exact path="/" element={<Footer />} />
+      <Route exact path="/404" element={<Undef />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
