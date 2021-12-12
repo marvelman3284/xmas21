@@ -7,7 +7,7 @@ export class Gift extends React.Component {
     return (
       <>
         <Header />
-        <Gifts name="Ender Pro V2 (3D Printer) (Must be bought with filament)" link="https://www.amazon.com/Pro-Removable-Certified-8-66x8-66x9-84in-220x220x250mm/dp/B07GYRQVYV" price="$251.99" />
+        <Gifts name="Ender Pro V2 (3D Printer) (Must be bought with filament)" link="https://www.creality3dofficial.com/products/ender-3-v2-3d-printer" price="$264.99" />
         <Gifts name="3D printer filament bundle (Must be bought with 3D printer)" link="https://www.amazon.com/1-75mm-Filament-Bundle-Compatible-Printers/dp/B07C3L6RP4/ref=sr_1_4?crid=CHUQYATCOHV7&keywords=3d+printer+pla+filament+1.75mm&qid=1639194173&s=industrial&sprefix=3d+printer+pla+%2Cindustrial%2C156&sr=1-4" price="$39.29" />
         <Gifts name="Apple Airpods Pro" link="https://www.amazon.com/dp/B09JQMJHXY/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=0ffd422fce07b0d6a03969552c49f66d&hsa_cr_id=888917629&pd_rd_plhdr=t&pd_rd_r=d938966d-9488-4e5f-ab6e-09c8a40367b6&pd_rd_w=VJyy4&pd_rd_wg=v6m1o&ref_=sbx_be_s_sparkle_lsi4d_asin_0_title" price="$179.99" /> 
         <Gifts name="Nightwing Vol 1: Leaping into the Light" link="https://www.amazon.com/Nightwing-Vol-1-Leaping-into-Light/dp/1779512783" price="$17.99" />
